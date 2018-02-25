@@ -2,7 +2,7 @@
 
 This is a demonstration on how to create a JavaScript library
 
-## [Demo link](https://stak-digital.github.io/javascript-module/dist/)
+## [Demo link](https://stak-digital.github.io/javascript-module/demo/dist/)
 
 ## Purpose
 
