@@ -2,6 +2,8 @@
 
 This is a demonstration on how to create a JavaScript library
 
+## [Demo link](https://stak-digital.github.io/javascript-module/dist/)
+
 ## Purpose
 
 This was made to change the color of a clicked element to a random color from an array of color strings
