@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config rollup.config.js"
+    "bundle": "rollup --config rollup.config.js",
+    "build": "npm run bundle && parcel build './demo/index.html'",
+    "start": "npm run build && parcel './demo/index.html' -p 3000"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/stak-digital/javascript-module/issues"
   },
-  "homepage": "https://github.com/stak-digital/javascript-module#readme"
+  "homepage": "https://github.com/stak-digital/javascript-module#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.6.2",
+    "rollup": "^0.56.2",
+    "rollup-plugin-babel": "^3.0.3"
+  }
 }
